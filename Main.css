@@ -5,37 +5,28 @@ body {
 }
 
 
-/* Style for the carousel container */
 .carousel {
-    width: 100%;
-    height: 33px;
-    color: white;
-    background-color: rgb(194, 16, 16);
-    text-align: center;
-    font-size: 25px;
-    padding-top: 10px;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Style for each carousel item */
-.carousel-item {
-    position: absolute;
     background-color: red;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 100%;
-     /* Start off-screen to the right */
-    display: block; /* Keep all items in the flow for transition */
-    transition: transform 0.5s ease-in-out; /* Add transition for sliding effect */
+    height: 50px;
+    overflow: hidden;
+    position: relative;
 }
 
-/* Show the first item initially */
-.carousel-item:first-child {
-    left: 0; /* Start on-screen */
-    transform: translateX(0); /* Ensure it's in the correct position */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
+
+.carousel-item {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
 /* Navigation Bar Styles */
 nav {
     background-color: rgba(22, 22, 24, 255);
