@@ -1,56 +1,110 @@
-h1 {
+/* General Styles */
+body {
+    padding: 0;
+    margin: 0;
+}
 
-text-align: center;
-font-size: 150px;
 
+/* Style for the carousel container */
+.carousel {
+    width: 100%;
+    height: 33px;
+    color: white;
+    background-color: rgb(194, 16, 16);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for each carousel item */
+.carousel-item {
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+     /* Start off-screen to the right */
+    display: block; /* Keep all items in the flow for transition */
+    transition: transform 0.5s ease-in-out; /* Add transition for sliding effect */
+}
+
+/* Show the first item initially */
+.carousel-item:first-child {
+    left: 0; /* Start on-screen */
+    transform: translateX(0); /* Ensure it's in the correct position */
+}
+/* Navigation Bar Styles */
+nav {
+    background-color: rgba(22, 22, 24, 255);
+    margin: 0;
+    padding: 0;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+   
 }
 
 nav img {
     height: 100%;
-   width: 20%;
-   padding-left: 40px;
-}
-
-
-nav{
-background-color: rgba(22, 22, 24,255);
-margin: 0%;
-padding: 0%;
-height: 160px;
-
-
-}
-body{
-
-padding: 0%;
-margin: 0%;
-
-
-}
-
-.carosel{
-
-width: 100%;
-height: 33px;
-color: white;
-background-color: rgb(194, 16, 16);
-text-align: center;
-font-size: 25px;
-font-style: unset;
-padding-top: 10px;
-
+    
 }
 
 nav input[type="text"] {
-    float: right;
-    margin-right: 850px;
     padding: 8px;
     border: none;
     font-size: 17px;
     background-color: #f2f2f2;
     border-radius: 5px;
-    margin-top: 60px;
+  
    
+}
+
+
+
+
+
+
+
+/* Links Bar Styles */
+.links-bar {
+    background-color:rgb(32, 32, 32);
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.links-bar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links-bar a:hover {
+    background-color: #ddd;
+    color: black;
+    
+}
+
+
+
+
+header {
+    background-image: url('img-3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
 
 
