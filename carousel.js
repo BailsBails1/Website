@@ -7,4 +7,4 @@ function rotateCarousel() {
     carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
-setInterval(rotateCarousel, 1500);
+setInterval(rotateCarousel, 4500);

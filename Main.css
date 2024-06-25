@@ -24,6 +24,8 @@ body {
     justify-content: center;
     color: white;
     font-family: Arial, sans-serif;
+    padding-top: 15px;
+    
 }
 
 
@@ -37,6 +39,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    
    
 }
 
