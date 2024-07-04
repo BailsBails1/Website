@@ -79,6 +79,23 @@ nav input[type="text"] {
 
 display: flex;
 text-align: center;
+padding-left: 80px;
+}
+
+.card1{
+padding: 30px;
+
 
 }
 
+.card2{
+    padding: 30px;
+    
+    
+    }
+
+    .card3{
+        padding: 30px;
+        
+        
+        }
