@@ -70,19 +70,15 @@ nav input[type="text"] {
     color: black;
 }
 
-
-.br {
-    height: 500px;
-    background: linear-gradient(Grey);
-    
-    
+/* Title Section Styles */
+.title-section {
+    text-align: center;
 }
 
+.product-cards{
 
+display: flex;
+text-align: center;
 
-
-
-
-
-
+}
 
