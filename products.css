@@ -70,13 +70,12 @@ nav input[type="text"] {
     color: black;
 }
 
-/* Grey Bar Styles */
-.grey-bar {
-    background-color: grey; /* Set background colour to grey */
-    text-align: center;     /* Centre the text */
-    padding: 10px 0;        /* Add some padding for spacing */
-    font-family: Arial, sans-serif; /* Set a font family */
-    color: white;           /* Set text colour to white */
+
+.br {
+    height: 500px;
+    background: linear-gradient(Grey);
+    
+    
 }
 
 
